@@ -52,6 +52,18 @@ function Home({ onNavigate }) {
 
         <div className="home-card">
           <div className="home-card-top">
+            <span className="home-tag">ACTIVITY 3</span>
+          </div>
+          <h3>Password Strength Checker</h3>
+          <p>Classify a password as Weak, Medium, or Strong.</p>
+          <button className="btn-open" onClick={() => onNavigate('activity3')}>
+            Open activity
+            <span className="btn-arrow">→</span>
+          </button>
+        </div>
+
+        <div className="home-card">
+          <div className="home-card-top">
             <span className="home-tag">ACTIVITY 4</span>
           </div>
           <h3>Electricity Billing</h3>
