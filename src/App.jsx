@@ -3,6 +3,7 @@ import Navbar from './components/Navbar.jsx'
 import Home from './pages/Home.jsx'
 import Activity1 from './pages/Activity1.jsx'
 import Activity2 from './pages/Activity2.jsx'
+import Activity3 from './pages/Activity3.jsx'
 import Activity4 from './pages/Activity4.jsx'
 import './App.css'
 
@@ -13,6 +14,7 @@ function App() {
     if (page === 'home') return <Home onNavigate={setPage} />
     if (page === 'activity1') return <Activity1 />
     if (page === 'activity2') return <Activity2 />
+    if (page === 'activity3') return <Activity3 />
     if (page === 'activity4') return <Activity4 />
     return <Home onNavigate={setPage} />
   }
